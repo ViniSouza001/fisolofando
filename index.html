@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisolofando</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Fisolofando.com</h1>
+        <nav id="nav">
+            <button id="btn-menu" onclick="menu()">Menu</button>
+            <span id="hamburguer" onclick="menu()"></span>
+            <ul id="menu">
+                <li><a href="./index.html">Nietzche</a></li>
+                <li><a href="./niilismo/index.html">Niilismo</a></li>
+                <li><a href="./suas_obras/index.html">Suas Obras</a></li>
+                <li><a href="./video/index.html">Video</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h1>Friedrich Nietzche</h1>
+        <p align="justify">Friedrich Wilhelm Nietzsche (Rocken, Alemanha, em 15 de outubro de 1844 - Weimar, Império Alemão, 25 de agosto de 1900) foi filósofo, filiólogo, poeta, compositor prussiano e crítico cultural do século XIX. Ele escreveu vários textos criticando a religião, a moral, a cultura contemporânea, a filosofia e a ciência.
+            Suas ideias chaves incluíam a crítica à dicotomia apolíneo/dionisíaca, o perspectivismo, a vontade de poder, a morte de Deus. Sua principal filosofia é a ideia de "afirmação da vida", que envolve o questionamento de qualquer doutrina que drene uma expansiva de energias, não importando o quão socialmente predominantes essas ideias possam ser.</p>
+            <img src="https://play-lh.googleusercontent.com/xsyzLaBoTBYz5SPCQhjESNVxhYBdv3PcSjrI-Z9qf9akikmjQa4cZXp7M9lhirHbL5A" alt="nietzsche">
+            <p align="justify">Suas ideias de superação individual e transcendência além da estrutura e contexto tiveram um impacto profundo sobre pensadores do final do século XIX e início do século XX, que usaram estes conceitos como pontos de partida para o começo do desenvolvimento de suas filosofias. Nietzsche começou sua carreira como filólogo clássico - um estudioso da crítica textual grega e romana - antes de se voltar para a filosofia</p>
+            <p align="justify">No começo, Nietzsche até pensou em seguir a carriera de pastor, mas após começar a questionar o cristianismo, ele rejeitou a crença religiosa durante sua adolescência e o seu contato com a filosofia afastou-o da carreira teológica. Após esse fato, iniciou seus estudos na Universidade de Bonn em filologia clássica e teologia evangélica.
+    </main>
+    <script>
+    function menu() {
+        const nav = document.getElementById('nav');
+        nav.classList.toggle('active');
+}
+    </script>
+</body>
+</html>

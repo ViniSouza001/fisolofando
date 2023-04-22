@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisolofando</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title-header">Fisolofando.com</h1>
+        <nav id="nav">
+            <button id="btn-menu" onclick="menu()">Menu</button>
+            <span id="hamburguer" onclick="menu()"></span>
+            <ul id="menu">
+                <li class="li-header"><a href="./../index.html">Nietzche</a></li>
+                <li class="li-header"><a href="./../niilismo/index.html">Niilismo</a></li>
+                <li class="li-header"><a href="./index.html">Suas Obras</a></li>
+                <li class="li-header"><a href="./../video/index.html">Video</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h1 id="title-main">Suas obras</h1>
+                <p class="paragraph">Embora a vida de Nietzsche tenha sido curta, o filósofo produziu diversas teorias, no total são 14, que seriam:</p>
+                <ul id="main-list">
+                    <li class="li-main">O Nascumento da Tragédia (1872);</li>
+                    <li class="li-main">A filosofia da Idade Trágica dos Gregos (1873);</li>
+                    <li class="li-main">Considerações Intempestivas (1873 a 1876);</li>
+                    <li class="li-main">Humano, Demasiado Humano (1886);</li>
+                    <li class="li-main">Aurora(1881);</li>
+                    <li class="li-main">A Gaia Ciência(1882);</li>
+                    <li class="li-main">Assim falou Zaratustra(1883 - 1885);</li>
+                    <li class="li-main">Além do bem e do mal(1886)</li>
+                    <li class="li-main">Genealogia da Moral, uma polêmica(1887);</li>
+                    <li class="li-main">O Crepúsculo dos ídolos(1888);</li>
+                    <li class="li-main">O anticristo(1888);</li>
+                    <li class="li-main">Ecce Homo(1888);</li>
+                    <li class="li-main">Nietzsche contra Wagner(1888);</li>
+                    <li class="li-main">Ditirambos Dionisíacos (1895).</li>
+                </ul>
+                <h1 id="h1">O que elas falam?</h1>
+                <h1 class="obras">Genealogia da Moral</h1>
+                <p class="paragraph">Essa obra fala mais sobre os sentimentos. Nietzsche propunha uma transvalorização de todos os valores, por meio de seu método genealógico (A Genealogia da Moral), é preciso investigar a origem a origem dos valores, em vez de simplesmente aceitá-los.</p>
+                <h1 class="obras">Assim falou Zaratustra</h1>
+                <p class="paragraph">Zaratustra é o "não" sagrado do Leão, que é um "Não" ao niilismo, e a transmutação que destrói todos os valores que querem o nada.</p>
+                <p class="paragraph">Através de Zaratustra, é possível redimir novamente a Terra, abrir o espaço para que o espírito transforme-se em criança</p>
+                <h1 class="obras">A Gaia da Ciência</h1>
+                <p class="paragraph">É uma alusão ao nascimento da poesia europeia moderna que ocorreu na Provenã durante o século XII. Deriva do Provençal, a língua usada pelos trovadores da literatura medieval, em que "gai saber" ou "gaia scienza".
+                Corresponde à habilidade técnica e ao espírito livre requeridos para a escrita da poesia.
+                
+                <h1 class="obras">Além do bem e do Mal</h1>
+                <p class="paragraph">Nesta obra, cujo o tema é, sobretudo, a precariedade cultural e espiritual do seu tempo, Nietzsche afirma a necessidade de que, no eterno retorno da vida e da história humana, os homens se ergam, aceitando a própria finitude, ultrapassando a própria condiação e vivendo soberanamente no gozo e na dor da própria verdade</p>
+    </main>
+    <script>
+        function menu() {
+                const nav = document.getElementById('nav');
+                nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

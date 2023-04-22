@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisolofando</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Fisolofando.com</h1>
+        <nav id="nav">
+            <button id="btn-menu" onclick="menu()">Menu</button>
+            <span id="hamburguer" onclick="menu()"></span>
+            <ul id="menu">
+                <li><a href="./../index.html">Nietzche</a></li>
+                <li><a href="./../niilismo/index.html">Niilismo</a></li>
+                <li><a href="./../suas_obras/index.html">Suas Obras</a></li>
+                <li><a href="./index.html">Video</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h1 id="title-main">Explicação em vídeo</h1>
+        <iframe width="760" height="400" src="https://www.youtube.com/embed/tbiGlqCiYYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <p class="paragraph">Edição: Vinícius Souza</p>
+        <p class="paragraph">Pesquisas: Ryan Ferraz, Murilo Viaro, Pedro Otavio, Kaique Lima</p>
+    </main>
+    <script>
+        function menu() {
+            const nav = document.getElementById('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
